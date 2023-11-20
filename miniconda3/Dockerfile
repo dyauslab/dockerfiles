@@ -39,7 +39,7 @@ RUN conda config --add channels conda-forge && \
     conda config --append channels anaconda && \
     conda config --append  channels pytorch && \
     conda config --append  channels fastai && \
-    conda install --yes mamba pyyaml && \
+    conda install --yes mamba pyyaml
     # conda update -n base --all
 
 CMD ["/bin/bash"]
